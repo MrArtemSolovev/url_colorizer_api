@@ -69,4 +69,3 @@ class ColorizeAPI(MethodResource, Resource):
 
 api.add_resource(ColorizeAPI, '/color')
 docs.register(ColorizeAPI)
-

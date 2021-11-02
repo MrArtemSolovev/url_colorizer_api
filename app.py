@@ -69,3 +69,7 @@ class ColorizeAPI(MethodResource, Resource):
 
 api.add_resource(ColorizeAPI, '/color')
 docs.register(ColorizeAPI)
+
+
+if __name__ == '__main__':
+    app.run()
